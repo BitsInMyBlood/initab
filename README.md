@@ -1,2 +1,2 @@
 # initab
-Chingu Voyage 9, initab clone
+Chingu Voyage 9, initab clone.
