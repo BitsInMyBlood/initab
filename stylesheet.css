@@ -1,0 +1,50 @@
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+.sidenav {
+  font-family: 'Inconsolata', monospace;
+  height: 100%;
+  width: 140px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #44475a;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 15px;
+  margin: 2px 2px 2px 2px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #818181;
+  display: block;
+}
+ .menuButton {
+  border-radius: 2px;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  m
+}
+
+
+.main {
+  margin-left: 140px; /* Same as the width of the sidenav */
+  padding: 0;0;0;0;
+  font-family: 'Inconsolata', monospace;
+  background-color: #212529;
+  margin: 0;0;0;0;
+  height: 900px;  }
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0px;}
+  .sidenav a {font-size: 12px;}
+}
